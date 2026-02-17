@@ -12,7 +12,7 @@ body {
 }
 
 .wrapper {
-	width: 90%;
+	max-width: 70%;
 	margin: 0 auto;
 }
 .backgroundImage {
@@ -31,7 +31,7 @@ h1 {
   font-size: 48px;
   text-align: center;
 }
-* .text {
+ .text {
   width: 50%;
   margin: 96px auto;
 }
