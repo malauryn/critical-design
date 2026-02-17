@@ -1,61 +1,69 @@
 /* styles.css */
-
-
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  width: 100%;
+}
 body {
-	background-color: #e6ce55;
-	font-family: Helvetica, Arial, sans-serif;
+  background-color: #e6ce55;
+  font-family: Helvetica, Arial, sans-serif;
 }
 
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
+}
 .backgroundImage {
-	background-image:url(../img/wrench.png);
-	width: 400px;
-	height: 400px; 
-	margin: 64px auto; 
+  background-image: url(../img/wrench.png);
+  width: 400px;
+  height: 400px;
+  margin: 64px auto;
 }
 
 .backgroundImage:hover {
-	background-image:url(../img/clock.png);
-	cursor: crosshair;
+  background-image: url(../img/clock.png);
+  cursor: crosshair;
 }
-h1{
-	color: black;
-	font-size: 48px;
-	text-align: center;
+h1 {
+  color: black;
+  font-size: 48px;
+  text-align: center;
 }
-
-.text {
-	width: 50%;
-	margin: 96px auto;
+* .text {
+  width: 50%;
+  margin: 96px auto;
 }
 
 .text * {
-	display:inline-block;
-	width: 48%;
-	margin: 0;
-	padding: 0;
-	vertical-align: middle;
-}
+  display: inline-block;
+  width: 48%;
+  margin: 0;
+  padding: 0 90px;
+  vertical-align: middle;
+} 
 
 h2 {
-	color:dodgerblue;
-	font-size: 40px;
-	text-align: left;
-	font-family: "Jost", sans-serif;
+  color: dodgerblue;
+  font-size: 40px;
+  text-align: left;
+  font-family: "Jost", sans-serif;
   font-optical-sizing: auto;
   font-weight: 900;
   font-style: normal;
 }
 
 h3 {
-	font-size: 16px;
-	text-align: right;
+  font-size: 16px;
+  text-align: right;
 }
 
 h3 a:link,
 h3 a:visited {
-	color: dodgerblue;
-	text-decoration: none;
+  color: dodgerblue;
+  text-decoration: none;
 }
 h3 a:hover {
-	color:white;
+  color: white;
 }
